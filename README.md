@@ -46,8 +46,8 @@ Choose one of the following options:
   to use it, you may have to copy and paste the contents of that folder into
   your project directory.
 
-* Using our new [create-html5-boilerplate](https://github.com/h5bp/create-html5-boilerplate)
-  project, instantly fetch the latest npm published package (or any version
+* Using the [create-html5-boilerplate](https://github.com/h5bp/create-html5-boilerplate)
+  script, instantly fetch the latest npm published package (or any version
   available on npm) with `npx`, `npm init` or `yarn create` without having to
   install any dependencies. Running the following `npx` command installs the
   latest version into a folder called `new-site`
@@ -56,8 +56,12 @@ Choose one of the following options:
   npx create-html5-boilerplate new-site
   cd new-site
   npm install
-  npm start
+  npm run start
   ```
+
+* Using our new [Template Repository](https://github.com/h5bp/html5-boilerplate-template)
+  create a new GitHub repository based on the latest code from the main branch of HTML5
+  Boilerplate.
 
 ## Features
 
@@ -72,7 +76,7 @@ Choose one of the following options:
   * [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
     that improve the web site's performance and security
 * Placeholder Open Graph elements and attributes.
-* An example package.json file with [Parcel](https://parceljs.org/) commands
+* An example package.json file with [WebPack](https://webpack.js.org/) commands
   built in to jumpstart application development
 * Placeholder CSS Media Queries.
 * Useful CSS helper classes.
@@ -83,7 +87,10 @@ Choose one of the following options:
 * Extensive documentation.
 
 ## Browser support
-You can find our range of supported browsers in our [package.json](https://github.com/h5bp/html5-boilerplate/blob/main/package.json#L56-L62)
+HTML5-Boilerplate supports the latest, stable releases of all major browsers. 
+
+You can find our range of supported browsers in our [package.json](https://github.com/h5bp/html5-boilerplate/blob/main/package.json#L56-L62) At present we extend the [browserlist default](https://github.com/browserslist/browserslist#full-list) with the addition of IE 11 and [FireFox ESR.](https://www.mozilla.org/en-US/firefox/enterprise/)
+
 ```json
   "browserslist": [
     "> 0.5%",
@@ -93,9 +100,13 @@ You can find our range of supported browsers in our [package.json](https://githu
     "IE 11"
   ],
 ```
+
+[That configuration translates to this full list of browsers.](https://browserslist.dev/?q=ID4gMC41JSwgICAgIGxhc3QgMiB2ZXJzaW9ucywgICAgIEZpcmVmb3ggRVNSLCAgICBub3QgZGVhZCwgICAgIElFIDEx)
+
+
 ## Documentation
 
-Take a look at the [documentation table of contents](dist/doc/TOC.md). This
+Take a look at the [documentation table of contents](doc/TOC.md). This
 documentation is bundled with the project which makes it available for offline
 reading and provides a useful starting point for any documentation you want to
 write about your project.
