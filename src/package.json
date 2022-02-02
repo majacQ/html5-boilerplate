@@ -12,6 +12,12 @@
     "start": "webpack-dev-server --open --port 8080"
   },
   "devDependencies": {
+  <<<<<<< readME.md
+    "webpack": "^5.68.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  =======
   <<<<<<< dependabot/npm_and_yarn/babel/core-7.16.12
     "webpack": "^5.68.0",
   =======
@@ -34,6 +40,7 @@
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.7.3"
   >>>>>>> dependabot/npm_and_yarn/babel/preset-env-7.16.11
+  >>>>>>> main
   }
 }
  
